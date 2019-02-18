@@ -40,14 +40,14 @@
   
 <distributionManagement>
     <repository>
-        <id>deployment123</id>
+        <id>deployment</id>
         <name>deployment</name>
-        <url>http://192.168.12.42:8081/nexus/content/repositories/ncodeit-1/</url>
+        <url>http://192.168.12.42:8081/nexus/content/repositories/deployment/</url>
     </repository>
     <snapshotRepository>
-        <id>deployment123</id>
+        <id>deployment</id>
         <name>deployment</name>
-        <url>http://192.168.12.42:8081/nexus/content/repositories/ncodeit-2/</url>
+        <url>http://192.168.12.42:8081/nexus/content/repositories/deployment_snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 
